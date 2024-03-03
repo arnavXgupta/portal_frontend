@@ -44,20 +44,77 @@ main{
     font-family: "Josefin Sans", sans-serif;
 }
 
-.top{
+.container{
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top{
+    width: 100%;
     height: 14%;
     display: flex;
     justify-content: space-between;
 }
 
-.mark{
+.gen{
     font-size: 1.17rem;
-    
+    font-weight: bolder;
 }
 
 .MarkMenu{
     display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.question{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.options{
+    display: flex;
+    height: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.option{
+    display: flex;
+}
+
+.answer{
+    height: 15px;
+    width: 15px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+}
+
+.leftbtn input[type=button]{
+    height: 100%;
+    background-color: #ffffff;
+    color: #1C5C83;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.rightbtn input[type=button]{
+    height: 100%;
+    background-color: #ffffff;
+    color: #1C5C83;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
