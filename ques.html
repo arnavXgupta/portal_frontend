@@ -9,15 +9,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="ques.js"></script>
 </head>
-<body>
+<body onclick="countdown();">
     <!-- Navbar -->
     <nav>
         <div class="back">
             &larr; &nbsp; Back
         </div>
-        <div class="time">
+        <div >
             Time Left:
+        </div>
+        <div class="time">
+            <input class="minutes" id="minutes" type="text" >
+            <span style="size: 5">:</span>
+            <input class="seconds" id="seconds" type="text" >
         </div>
         <div class="marks">
             Max Marks: 100
@@ -73,10 +79,10 @@
 
             <div class="bottom">
                 <span class="leftbtn">
-                    <input type="button" value="&larr; Prev. Question">
+                    <input type="button" class="button" value="&larr; Prev. Question">
                 </span>
                 <span class="rightbtn">
-                    <input type="button" value="Next Question &rarr;">
+                    <input type="button" class="button" value="Next Question &rarr;">
                 </span>
             </div>
         </div>
