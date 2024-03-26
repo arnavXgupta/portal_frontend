@@ -1,0 +1,37 @@
+body{
+    margin: 0px;    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    height: 13%;
+    border:1px solid black;
+    justify-content: center;
+}
+
+.contain{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    /* display: flex; */
+}
+
+.notify{
+    display: flex;
+    max-width: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+
